@@ -1,0 +1,4 @@
+{
+    "baseUrl": ".",
+    "typesRoots": ["./node_modules/@types", "./e2e/types/global"],
+}
