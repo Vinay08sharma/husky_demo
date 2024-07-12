@@ -7,7 +7,7 @@
     "test": "npx playwright test --headed",
     "test:headless": "npx playwright test",
     "lint": "npx eslint .",
-    "lint:fix": "npx eslnt . --fix",
+    "lint:fix": "npx eslint . --fix",
     "prepare": "husky"
   },
   "keywords": [],

@@ -1,6 +1,4 @@
 import { Page } from "@playwright/test";
-import { ENV } from "../frameworkConfig/env";
-import AddEmployeePage from "./addEmployeeWithPageObjects";
 import HomePage from "./homePageObjects";
 
 class LoginPage {
