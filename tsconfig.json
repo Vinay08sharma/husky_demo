@@ -1,4 +1,9 @@
 {
-    "baseUrl": ".",
-    "typesRoots": ["./node_modules/@types", "./e2e/types/global"],
+    "compilerOptions": {
+        "paths": {
+            "baseUrl": ["./"],
+            "@e2e/*": ["./e2e/*"],
+            "@pages/*": ["./e2e/pages/*"],
+        }
+    }
 }

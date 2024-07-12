@@ -12,9 +12,9 @@ class LoginPage {
     private readonly passwordTextBox = this.page.getByPlaceholder('Password');
     private readonly loginButton = this.page.getByRole('button', { name: 'Login' });
     
-    async login() {
-        await this.userNameTextBox.fill(ENV.USERNAME);
-        await this.passwordTextBox.fill(ENV.PASSWORD);
+    async login(username: string, password: string) {
+        await this.userNameTextBox.fill(username);
+        await this.passwordTextBox.fill(password);
         await this.loginButton.click();
         return new HomePage(this.page);
     }
